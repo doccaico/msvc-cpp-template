@@ -2,7 +2,6 @@ cmake_minimum_required(VERSION 4.2)
 
 # disable exception handling
 set(CMAKE_MSVC_EXCEPTION_HANDLING OFF)
-
 # Do not use default cmake flags
 set(CMAKE_MSVC_RUNTIME_LIBRARY "" CACHE STRING "" FORCE)
 set(CMAKE_BUILD_TYPE "" CACHE STRING "" FORCE)
@@ -16,7 +15,6 @@ endif()
 
 # Do not use default cmake link libraries
 set(CMAKE_CXX_STANDARD_LIBRARIES "" CACHE STRING "" FORCE)
-
 # Do not use default cmake flags
 set(CMAKE_CXX_FLAGS "" CACHE STRING "" FORCE)
 set(CMAKE_CXX_FLAGS_DEBUG "" CACHE STRING "" FORCE)
