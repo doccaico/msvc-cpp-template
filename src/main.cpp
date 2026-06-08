@@ -12,5 +12,5 @@ int main(int argc, char** argv) {
     v.push_back(100);
     
     printf("Access v: %d\n", v[0]);
-    printf("Access v: %d\n", v[1]);
+    // printf("Access v: %d\n", v[1]);
 }
